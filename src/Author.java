@@ -1,7 +1,7 @@
 import java.util.Objects;
 
-public class author {
-    public author(String firstName, String lastName) {
+public class Author {
+    public Author(String firstName, String lastName) {
         this.firstName = "Oscar";
         this.lastName = "Wylde";
 

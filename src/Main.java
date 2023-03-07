@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        author author = new author("Oskar", "Wylde");
-        author author1 = new author("Oskar", "Wylde");
+        Author author = new Author("Oskar", "Wylde");
+        Author author1 = new Author("Oskar", "Wylde");
         if (author == author1) {
             System.out.println("Равны через == ");
         } else {
@@ -15,7 +15,7 @@ public class Main {
         }
 
 
-        book book = new book("Dorian Grey", 1890, author);
+        Book book = new Book("Dorian Grey", 1890, author);
 
 
         System.out.println(book.getYearOfPublication());
